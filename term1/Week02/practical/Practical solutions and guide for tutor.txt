@@ -1,0 +1,13 @@
+This worksheet will continue next week as well hence there are seven exercises. This should give students enough time to learn HTML or revise HTML. Also, it will allow late comers to join and start with the easiest topic of this module.
+For each practical, we'll now keep one exercise directly linked with students website project. The aim is to motivate them to start working on their website project as early as possible. So exercise 6 is for this purpose - please allocate time in both week 2 and week 3 to go through exercise 6. Please encourage them to start thinking about their project and go through progress reviews. Ideally first progress review should be from week 6/7.
+Exercise 1 is about installing VS Code extensions. Please demonstrate by installing one extension.
+Exercise 2, Exercise 3 and Exercise 5
+Check attached Practical Solutions.zip file
+Exercise 4:
+Task 1: <a href=../res.aspx> Research Units </a>
+Task 2: <a href=../../../../abe/aboutthedepartment/staff.aspx> ABE Department Staff </a>
+You may also start from root director e.g., /et/abe/aboutthedepartment/staff.aspx
+Exercise 6:
+Here students are expected to start thinking about their project website and a possible use of HTML in their website. They should draw a rough sitemap / booking process taking end users from one page to another. Also, they should think what dynamic contents can come to their web pages and where these should be displayed so that they can identify place holders.
+Exercise 7:
+This exercise is for more practice and requires students to create a small website (few pages) by using different HTML tags. It is relevant to the case study we’ll use for DBs and Flask.

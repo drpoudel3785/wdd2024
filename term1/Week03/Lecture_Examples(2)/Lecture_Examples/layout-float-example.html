@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Example adapted from: https://www.w3schools.com/html/html_layout.asp !-->
+<html lang="en">
+<head>
+<title>CSS Template - float</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>CSS Layout - Float Example - adapted from w3schools </h2>
+<p>There is a header, two columns/boxes and a footer</p>
+
+<header>
+  <h2>UWE Faculties</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">FET</a></li>
+      <li><a href="#">FBL</a></li>
+      <li><a href="#">HAS</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Faculty of Environment and Technology </h1>
+    <p>The Faculty of Environment and Technology at UWE, is situated in the
+      beautiful city of Bristol. We are a highly successful and very popular
+      Faculty of over 6000 students and 450 staff members.</p>
+  </article>  
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
